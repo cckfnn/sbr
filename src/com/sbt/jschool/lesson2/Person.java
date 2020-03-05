@@ -25,9 +25,7 @@ public class Person {
             this.spouse.spouse = null;
             this.spouse = null;
             return true;
-        } else {
-            return false;
-        }
+        } else return false;
     }
 
 }
