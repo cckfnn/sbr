@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.HashSet;
 
 public class lesson3_1 {
-    public static void main (String[] Args) throws IOException {
+    public static void main(String[] Args) throws IOException {
         String fileName = "C:\\sbr_sc\\test\\123.txt";
         String content = new String(Files.readAllBytes(Paths.get(fileName)));
         HashSet<String> strSet = new HashSet<>();

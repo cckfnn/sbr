@@ -14,6 +14,10 @@ public class lesson3_4 {
         String content = new String(Files.readAllBytes(Paths.get(fileName)));
         ArrayList<String> stringList = new ArrayList<>();
         Collections.addAll(stringList, content.split(" "));
-
+        Collections.reverse(stringList);
+        for (String st :
+                stringList) {
+            System.out.println(st);
+        }
     }
 }
