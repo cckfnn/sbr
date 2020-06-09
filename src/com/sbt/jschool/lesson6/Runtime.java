@@ -17,5 +17,6 @@ public class Runtime<T extends Number>
     }
     @Override
     public Double call() {return 0d;}
+
 }
 
