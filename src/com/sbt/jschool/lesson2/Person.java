@@ -11,21 +11,23 @@ public class Person {
     }
 
     public boolean marry(Person person) {
-        if ((person.man != this.man)&&(this.spouse != person)) {
+        if ((person.man != man)&&(spouse != person)) {
             person.divorce();
-            this.divorce();
+            divorce();
             person.spouse = this;
-            this.spouse = person;
+            spouse = person;
             return true;
-        } else return false;
+        }
+        return false;
     }
 
     public boolean divorce() {
-        if (this.spouse != null) {
-            this.spouse.spouse = null;
-            this.spouse = null;
+        if (spouse != null) {
+            spouse.spouse = null;
+            spouse = null;
             return true;
-        } else return false;
+        }
+        return false;
     }
 
 }

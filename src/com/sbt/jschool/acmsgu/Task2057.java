@@ -3,7 +3,7 @@ package com.sbt.jschool.acmsgu;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class task2057 {
+public class Task2057 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         PriorityQueue<Integer> queue = new PriorityQueue<>();

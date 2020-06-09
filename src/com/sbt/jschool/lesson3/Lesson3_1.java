@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.HashSet;
 
-public class lesson3_1 {
+public class Lesson3_1 {
     public static void main(String[] Args) throws IOException {
         String fileName = "C:\\sbr_sc\\test\\123.txt";
         String content = new String(Files.readAllBytes(Paths.get(fileName)));

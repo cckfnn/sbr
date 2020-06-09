@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class lesson3_2 {
+public class Lesson3_2 {
     public static void main(String[] Args) throws IOException {
         String fileName = "C:\\sbr_sc\\test\\123.txt";
         String content = new String(Files.readAllBytes(Paths.get(fileName)));
